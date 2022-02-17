@@ -10,7 +10,7 @@ void Game::initWindow()
 
 void Game::setBG()
 {
-    if (!this->bgTexture.loadFromFile("C:\\Users\\Vaibh\\Documents\\myproj\\src\\images\\flappy_bird_assests\\sprites\\bgGood.png"))
+    if (!this->bgTexture.loadFromFile("C:\\Users\\Vaibh\\Documents\\myproj\\build\\images\\flappy_bird_assests\\sprites\\bgGood.png"))
     {
         std::cout << "Unable to load [Backgroung texture]" << std::endl;
     }

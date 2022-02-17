@@ -4,7 +4,7 @@ void Pipe::SpawnTopPipe(sf::RenderTarget& target)
 {
     sf::Sprite sprite;
     sf::Texture topPipeText;
-    if(!topPipeText.loadFromFile("C:\\Users\\Vaibh\\Downloads\\brick_wall.jpg"))
+    if(!topPipeText.loadFromFile("C:\\Users\\Vaibh\\Documents\\myproj\\build\\images\\flappy_bird_assests\\sprites\\pipe-green-up.png"))
     {
         std::cout << "Error[Up]" << std::endl;
     }
@@ -18,7 +18,7 @@ void Pipe::SpawnBottomPipe(sf::RenderTarget& target)
 {
     sf::Sprite sprite;
     sf::Texture bottomPipeText;
-    bottomPipeText.loadFromFile("C:/Users/Vaibh/Documents/myproj/src/images/flappy_bird_assests/sprites/pipe-green.png");
+    bottomPipeText.loadFromFile("C:\\Users\\Vaibh\\Documents\\myproj\\build\\images\\flappy_bird_assests\\sprites\\pipe-green.png");
     sprite.setTexture(bottomPipeText);
     sprite.setPosition(target.getSize().x, target.getSize().y - sprite.getGlobalBounds().height);
     sprite.setColor(sf::Color::Black);

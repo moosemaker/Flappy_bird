@@ -7,7 +7,7 @@ void Player::initPlayer()
 
 void Player::initTexture()
 {
-    texture.loadFromFile("src\\images\\flappy_bird_assests\\sprites\\yellowbird-midflap.png");
+    
 }
 
 
